@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devops-overseer-credentials"
+version = "0.1.0"
+description = "A basic Python plugin"
+authors = [{ name = "mot0ko", email = "dourval.clement@gmail.com" }]
+dependencies = []
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.entry-points."devopso.plugins"]
+"credentials" = "devopso_credentials_manager.plugin:register"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "node-and-date"
