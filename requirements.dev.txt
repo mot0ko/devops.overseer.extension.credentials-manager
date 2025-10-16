@@ -1,0 +1,15 @@
+pre-commit
+setuptools>=68
+wheel
+build
+twine
+setuptools-scm
+pytest
+tox
+isort
+black
+mkdocs
+mkdocs-material
+mkdocs-htmlproofer-plugin
+mkdocstrings
+flake8
