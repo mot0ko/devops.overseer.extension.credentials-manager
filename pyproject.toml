@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "devops-overseer-credentials"
-version = "0.1.0"
+dynamic = ["version"]
 description = "A basic Python plugin"
 authors = [{ name = "mot0ko", email = "dourval.clement@gmail.com" }]
 dependencies = []
