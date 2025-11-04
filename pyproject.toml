@@ -7,7 +7,9 @@ name = "devops-overseer-credentials"
 dynamic = ["version"]
 description = "A basic Python plugin"
 authors = [{ name = "mot0ko", email = "dourval.clement@gmail.com" }]
-dependencies = []
+dependencies = [
+  "devops-overseer>=0.0.3"
+]
 readme = "README.md"
 requires-python = ">=3.8"
 
